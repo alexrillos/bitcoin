@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investimentos em Bitcoin - Fear and Greed Index</title>
+</head>
+<body>
+    <header>
+        <h1>Investimentos em Bitcoin</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#analise">Análise e Recomendações</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section>
+            <h2>Indicador Fear and Greed</h2>
+            <p>Acompanhe o índice de medo e ganância para tomar decisões informadas sobre investimentos em Bitcoin.</p>
+            <img src="https://alternative.me/crypto/fear-and-greed-index.png" alt="Latest Crypto Fear & Greed Index" />
+        </section>
+
+        <section id="analise">
+            <h2>Análise e Recomendações</h2>
+            <p>Utilize nossas recomendações baseadas no índice:</p>
+            <ul>
+                <li><strong>90 ou mais:</strong> Indicação de venda total dos bitcoins.</li>
+                <li><strong>10 ou menos:</strong> Indicação de compra total (all in) em Bitcoin.</li>
+                <li><strong>70 a 80:</strong> Pequenas vendas semanais de até $100,00.</li>
+                <li><strong>80 a 90:</strong> Vendas moderadas de até $500,00 semanais.</li>
+                <li><strong>30 a 40:</strong> Pequenas compras semanais de $100,00.</li>
+                <li><strong>20 a 30:</strong> Compras moderadas de até $500,00 semanais.</li>
+                <li><strong>40 a 70:</strong> Apenas observação, sem compras ou vendas.</li>
+            </ul>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Saiba mais sobre a nossa equipe e metodologia.</p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Investimentos em Bitcoin</p>
+    </footer>
+</body>
+</html>
